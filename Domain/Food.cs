@@ -4,7 +4,6 @@
     {
         public string Name { get; set; }
         public int Id { get; set; }
-        //public static int count = 1;
         public string Category { get; set; }
         public double Price { get; set; }
         public Boolean isDeleted { get; set; }
