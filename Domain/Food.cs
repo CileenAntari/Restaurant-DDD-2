@@ -11,7 +11,6 @@
         public Food(string Name, string Category, double Price)
         {
             this.Name = Name;
-            //this.Id = count++;
             this.Category = Category;
             this.Price = Price;
             this.isDeleted = false;
@@ -19,7 +18,6 @@
         public Food(string Name, string Category, double Price, Boolean isUpdated, Boolean isDeleted)
         {
             this.Name = Name;
-            //this.Id = count++;
             this.Category = Category;
             this.Price = Price;
             this.isDeleted = isDeleted;
